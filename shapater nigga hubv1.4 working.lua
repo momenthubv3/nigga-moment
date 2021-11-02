@@ -1,13 +1,15 @@
---made by shapater nigga HOYA
+--made by PIKA NEGA
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
-local niggahood = Instance.new("TextButton")
+local Dahood = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-local breaknigga = Instance.new("TextButton")
+local prisonbreak = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local main2 = Instance.new("Frame")
 local madcity = Instance.new("TextButton")
 local shindolife = Instance.new("TextButton")
+local drag = Instance.new("TextLabel")
+
 --Properties:
 ScreenGui.Parent = game.CoreGui
 
@@ -20,18 +22,18 @@ main.Size = UDim2.new(0, 417, 0, 210)
 main.Active = true
 main.Draggable = true
 
-niggahood.Name = "nigga hood"
-niggahood.Parent = main
-niggahood.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-niggahood.Position = UDim2.new(-0.000451030763, 0, 0.842488468, 0)
-niggahood.Size = UDim2.new(0, 416, 0, 40)
-niggahood.Font = Enum.Font.SourceSans
-niggahood.Text = "nigga hood"
-niggahood.TextColor3 = Color3.fromRGB(0, 0, 0)
-niggahood.TextScaled = true
-niggahood.TextSize = 14.000
-niggahood.TextWrapped = true
-niggahood.MouseButton1Down:connect(function()
+Dahood.Name = "Dahood"
+Dahood.Parent = main
+Dahood.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Dahood.Position = UDim2.new(-0.000451030763, 0, 0.842488468, 0)
+Dahood.Size = UDim2.new(0, 416, 0, 40)
+Dahood.Font = Enum.Font.SourceSans
+Dahood.Text = "Dahood"
+Dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dahood.TextScaled = true
+Dahood.TextSize = 14.000
+Dahood.TextWrapped = true
+Dahood.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Biteyz/Smoke/main/source')))()
 end)
 
@@ -41,24 +43,24 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
 TextLabel.Position = UDim2.new(-0.00045103021, 0, -0.000938737765, 0)
 TextLabel.Size = UDim2.new(0, 415, 0, 89)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "nigga moment"
+TextLabel.Text = "nega moment "
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-breaknigga.Name = "breaknigga"
-breaknigga.Parent = main
-breaknigga.BackgroundColor3 = Color3.fromRGB(172, 0, 0)
-breaknigga.Position = UDim2.new(0.00479616318, 0, 0.652012289, 0)
-breaknigga.Size = UDim2.new(0, 416, 0, 40)
-breaknigga.Font = Enum.Font.SourceSans
-breaknigga.Text = "breaknigga"
-breaknigga.TextColor3 = Color3.fromRGB(0, 0, 0)
-breaknigga.TextScaled = true
-breaknigga.TextSize = 14.000
-breaknigga.TextWrapped = true
-breaknigga.MouseButton1Down:connect(function()
+prisonbreak.Name = "prisonbreak"
+prisonbreak.Parent = main
+prisonbreak.BackgroundColor3 = Color3.fromRGB(172, 0, 0)
+prisonbreak.Position = UDim2.new(0.00479616318, 0, 0.652012289, 0)
+prisonbreak.Size = UDim2.new(0, 416, 0, 40)
+prisonbreak.Font = Enum.Font.SourceSans
+prisonbreak.Text = "prison break"
+prisonbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+prisonbreak.TextScaled = true
+prisonbreak.TextSize = 14.000
+prisonbreak.TextWrapped = true
+prisonbreak.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/chriszrk/Bowser-Hub/main/BowserHubCool", true))()
 end)
 
@@ -80,16 +82,16 @@ end)
 main2.Name = "main2"
 main2.Parent = ScreenGui
 main2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-main2.Position = UDim2.new(0.142857149, 0, 0.417322814, 0)
-main2.Size = UDim2.new(0, 418, 0, 135)
+main2.Position = UDim2.new(0.12931034, 0, 0.335433066, 0)
+main2.Size = UDim2.new(0, 139, 0, 155)
 main2.Active = true
 main2.Draggable = true
 
 madcity.Name = "madcity"
 madcity.Parent = main2
 madcity.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
-madcity.Position = UDim2.new(0.00717133842, 0, 0.486480057, 0)
-madcity.Size = UDim2.new(0, 416, 0, 47)
+madcity.Position = UDim2.new(0.00717141153, 0, 0.486480117, 0)
+madcity.Size = UDim2.new(0, 138, 0, 79)
 madcity.Font = Enum.Font.SourceSans
 madcity.Text = "madcity"
 madcity.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -103,10 +105,10 @@ end)
 shindolife.Name = "shindo life"
 shindolife.Parent = main2
 shindolife.BackgroundColor3 = Color3.fromRGB(255, 112, 17)
-shindolife.Position = UDim2.new(0.00718849897, 0, -0.00250639394, 0)
-shindolife.Size = UDim2.new(0, 413, 0, 60)
+shindolife.Position = UDim2.new(0.00718853623, 0, 0.145880729, 0)
+shindolife.Size = UDim2.new(0, 138, 0, 51)
 shindolife.Font = Enum.Font.SourceSans
-shindolife.Text = "shindo life nigga hub spec"
+shindolife.Text = "shindo life nega sepc"
 shindolife.TextColor3 = Color3.fromRGB(0, 0, 0)
 shindolife.TextScaled = true
 shindolife.TextSize = 14.000
@@ -114,3 +116,15 @@ shindolife.TextWrapped = true
 shindolife.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
+
+drag.Name = "drag"
+drag.Parent = main2
+drag.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+drag.Position = UDim2.new(0.0143884895, 0, 0, 0)
+drag.Size = UDim2.new(0, 137, 0, 23)
+drag.Font = Enum.Font.SourceSans
+drag.Text = "drag here"
+drag.TextColor3 = Color3.fromRGB(0, 0, 0)
+drag.TextScaled = true
+drag.TextSize = 14.000
+drag.TextWrapped = true
